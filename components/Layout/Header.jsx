@@ -25,7 +25,7 @@ function Header() {
     ]
 
     return (
-        <div className='bg-primary min-h-screen text-white'>
+        <div className=' text-white'>
             <nav className='py-10'>
                 <div className="container mx-auto">
                     <div className="flex">
@@ -42,7 +42,7 @@ function Header() {
                                     href={
                                         menu.link
                                 }>
-                                    <li className='font-sans text-xs md:text-base px-2 py-2'
+                                    <li className='font-sans text-xs md:text-base px-2 py-2 hover:shadow-sm'
                                         key={i}>
                                         {
                                         menu.name
